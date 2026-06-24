@@ -1,0 +1,2 @@
+# ai
+AI work templates
