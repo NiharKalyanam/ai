@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────
+# Requirements for Flight Booking Multi-Agent System
+# ─────────────────────────────────────────────
+# Install everything with:
+#   pip install -r requirements.txt
+
+# MCP SDK — the core library that lets us build MCP servers
+# This handles all the protocol details (STDIO, HTTP communication)
+mcp>=1.0.0
+
+# FastAPI — used to build the HTTP-based Booking Agent
+# It's a modern, fast web framework for Python
+fastapi>=0.104.0
+
+# Uvicorn — the server that RUNS FastAPI apps
+# Think of FastAPI as the blueprint, uvicorn as the engine
+uvicorn>=0.24.0
+
+# Requests — simple HTTP client to call external APIs
+# Used by agents when they need to call AviationStack or each other
+requests>=2.31.0
+
+# Httpx — async HTTP client (needed by MCP internally)
+httpx>=0.25.0
+
+# Pydantic — data validation library
+# Used to define and validate data shapes (flight, booking, etc.)
+pydantic>=2.0.0
+
+# Python-dotenv — loads .env files into environment variables
+# This is how you'll store your AviationStack API key safely
+python-dotenv>=1.0.0
