@@ -1,0 +1,49 @@
+{
+  "flights": [
+    {
+      "flight_id": "AA101",
+      "airline": "American Airlines",
+      "from": "JFK",
+      "to": "LAX",
+      "departure": "2026-08-01T08:00:00",
+      "arrival": "2026-08-01T11:30:00",
+      "price": 299.99,
+      "seats_available": 12,
+      "class": "Economy"
+    },
+    {
+      "flight_id": "UA202",
+      "airline": "United Airlines",
+      "from": "JFK",
+      "to": "LAX",
+      "departure": "2026-08-01T12:00:00",
+      "arrival": "2026-08-01T15:45:00",
+      "price": 349.99,
+      "seats_available": 5,
+      "class": "Economy"
+    },
+    {
+      "flight_id": "DL303",
+      "airline": "Delta Airlines",
+      "from": "JFK",
+      "to": "LAX",
+      "departure": "2026-08-01T18:00:00",
+      "arrival": "2026-08-01T21:30:00",
+      "price": 279.99,
+      "seats_available": 19,
+      "class": "Economy"
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": "BK-DL303-1AA994",
+      "flight_id": "DL303",
+      "passenger_name": "Nihar",
+      "email": "nihar@test.com",
+      "seat_class": "Economy",
+      "price": 279.99,
+      "status": "confirmed",
+      "booked_at": "2026-06-22T22:41:18.435968"
+    }
+  ]
+}
